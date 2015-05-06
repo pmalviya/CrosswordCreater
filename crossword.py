@@ -77,7 +77,6 @@ def main(nrows, ncols, words):
     getCompletePuzzle(grid, words)
 
 if __name__ == "__main__":
-    #words = ['AMPUSH', 'POKER', 'TEAM', 'CATS']
     wordslength = input("How many words do you want in your puzzle?")
     n = input("Enter Grid row/column size:")
     words =[]
